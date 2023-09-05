@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 import io
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Streamlit app
 def main():
